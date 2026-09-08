@@ -3,13 +3,16 @@ Calculator Module - Basic arithmetic operations
 Students will extend this with more functions
 """
 
+
 def add(a, b):
     """Add two numbers together"""
     return a + b
 
+
 def subtract(a, b):
     """Subtract b from a"""
     return a - b
+
 
 def multiply(a, b):
     """Multiply two numbers with input validation and logging."""
@@ -20,6 +23,7 @@ def multiply(a, b):
     result = a * b
     print(f"Result: {result}")
     return result
+
 
 def divide(a, b):
     """Divide a by b with enhanced error handling."""
@@ -33,6 +37,7 @@ def divide(a, b):
     print(f"Result: {result}")
     return result
 
+
 def power(a, b):
     """Raise a to the power of b with input validation."""
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
@@ -42,6 +47,7 @@ def power(a, b):
     result = a ** b
     print(f"Result: {result}")
     return result
+
 
 def sqrt(a):
     """Calculate the square root of a with input validation."""
@@ -56,6 +62,7 @@ def sqrt(a):
     return result
 
 # TODO: Students will add multiply, divide, power, sqrt functions
+
 
 if __name__ == "__main__":
     print("🧮 Calculator Module")

@@ -5,6 +5,7 @@ Students start with 2 passing tests, then add more
 import pytest
 from src.calculator import *
 
+
 class TestBasicOperations:
     """Test basic arithmetic operations"""
     
@@ -17,6 +18,7 @@ class TestBasicOperations:
         """Test subtracting positive numbers"""
         assert subtract(5, 3) == 2
         assert subtract(10, 4) == 6
+
 
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
